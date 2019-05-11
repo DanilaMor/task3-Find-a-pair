@@ -1,0 +1,19 @@
+table {
+    width: 250px;
+    height: 250px;
+    padding: 3px;
+    border: 1px solid black;
+}
+.stripy {
+    width: 300px;
+    border-collapse: collapse;
+}
+.STD, .STH {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+tr, th{
+    padding: 3px;
+    border: 1px solid black;
+}
