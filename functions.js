@@ -177,6 +177,8 @@ function activeCell(r) {
                     // check the id of the cells if they do not match, we believe that a pair of colors was found
                     if (currentCell.getAttribute("id") != r.getAttribute("id")) {
                         numPairsFound++;
+                    }else {
+                        setColor("white", currentCell.getAttribute("id"));
                     }
                 }
                 currentCell = null;
